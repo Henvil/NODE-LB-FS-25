@@ -48,4 +48,4 @@ const deleteById = (req: Request, res: Response) => {
 
 export {
   getAll, getOneById, create, updateById, deleteById
-};
+}

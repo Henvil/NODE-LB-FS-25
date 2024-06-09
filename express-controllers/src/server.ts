@@ -2,7 +2,7 @@ import express, { Request, Response, NextFunction } from "express";
 import "express-async-errors";
 import morgan from "morgan";
 import dotenv from "dotenv";
-import { getAll, getOneById, create, updateById, deleteById } from "./controllers/planets";
+import { getAll, getOneById, create, updateById, deleteById } from "./controllers/planets.js";
 import Joi from "joi";
 
 dotenv.config();
